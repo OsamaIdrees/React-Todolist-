@@ -61,6 +61,7 @@ const TodoList = () => {
         }
 
         runApi();
+        // eslint-disable-next-line
     }, [reRun])
     const submitTask = (e) => {
         e.preventDefault();
@@ -224,7 +225,11 @@ const TodoList = () => {
 
             <br />
             <input type="submit" name="add_task" value="Update Task" message="close" className={classess.submitButton} />
+            <div className={classess.close_button} onClick={()=>setUpdateFlag(false)}>
+                        Close
+            </div>
         </form> 
+    
         </div>:
             null
         }
