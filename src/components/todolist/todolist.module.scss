@@ -1,0 +1,26 @@
+.form_styling{
+    width: 100%;
+}
+.label_styling{
+    padding: 0% 2% 0% 2%;
+}
+.submitButton{
+    background: blue;
+    color: white;
+    margin: 2%;
+    border-color: transparent;
+    padding: 0.5% 3% 0.5% 3%;
+    position: relative;
+    left: 10%;
+    cursor: pointer;
+}
+.delete_button{
+    cursor: pointer;
+    color: white;
+    background: red;
+}
+.update_button{
+    cursor: pointer;
+    color: white;
+    background: green;
+}
